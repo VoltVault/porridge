@@ -1,0 +1,22 @@
+{
+  "name": "parc-js",
+  "version": "1.0.0",
+  "description": "Parc js is a js library.",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc parc.js"
+  },
+  "keywords": [
+    "Parc",
+    "VoltVault",
+    "Lil' Wuth",
+    "Leiloukou",
+    "JS",
+    "React"
+  ],
+  "author": "Lil' Wuth",
+  "license": "MIT",
+  "dependencies": {
+    "jsdoc": "^3.6.10"
+  }
+}
