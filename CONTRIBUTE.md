@@ -1,3 +1,5 @@
+markdown: kramdown
+
 # Contribution 
  
 ## How to contribute: Introduction 
