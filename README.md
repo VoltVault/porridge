@@ -1,5 +1,5 @@
 <div style="text-align: center;"> 
-# parc.js 
+<h1>parc.js</h1>  
  
 🚗Parc.js is a new open source javascript 📖library. Feel free to contribute, and include an emoji in the commit message😄. 
  
