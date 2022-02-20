@@ -2,9 +2,9 @@
  
 ## How to contribute: Introduction 
  
-If you know how to contribute and you wold just like to see the rules, then you can skip to [#rules](#rules), else you can just watch this:
+If you know how to contribute and you wold just like to see the rules, then you can skip to [#rules](#rules), else you can just watch this video from [@webdevdsmplified](https://github.com/WebDevSimplified/):
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GbqSvJs-6W4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![How to contribute to open source](http://i.ytimg.com/vi/GbqSvJs-6W4/0.jpg)](http://www.youtube.com/watch?v=GbqSvJs-6W4)
  
 ## Rules 
  
