@@ -48,7 +48,7 @@ and you can add it to you project with ease. <br />
  
 ### &lt;/> Implementation through self hosted javascript 
  
- > :warning: **Constant updates**: _Every_ time that parc updates, you _*copy && paste*_ the newest parc.js code. 
+ > :warning: **Constant updates**: _Every_ time that parc updates, you have to _*copy && paste*_ the newest parc.js code. 
  
 You can copy the code at the [parc.js](https://github.com/VoltVault/parc.js/blob/pre-release/parc.js) file. <br /> 
  
