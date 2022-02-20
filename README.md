@@ -1,6 +1,17 @@
+ 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+ 
 <h1 align="center">parc.js</h1>  
 <p align="center"> 
 🚗 Parc.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
+</p> 
+<p align="center"> 
+<a href="https://twitter.com/intent/tweet?text=Ditch%20all%20that%20convoluted%20%22Math.random()%22%20code.%20Rando.js%20makes%20picking%20a%20number%201-100%20as%20simple%20as%20%22rando(1,%20100)%22,%20and%20it%20can%20do%20way%20more%20just%20as%20easily-%20at%20a%20cryptographically%20strong%20level.&url=https://github.com/nastyox/Rando.js&hashtags=javascript,opensource,js,webdev,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a> 
 </p> 
  
 <br /> 
@@ -10,7 +21,7 @@
 <br /> 
 <br /> 
  
-## :hear_no_evil: Why should I like parc? 
+## :hear_no_evil: Why should I even like parc? 
  
 Parc.js is the \#1 Javascript library <br /> 
 for beginners to experts. <br /> 
@@ -18,7 +29,11 @@ No matter how much you know javascript, <br />
 parc.js will be perfect for you. <br /> 
 Out of _**all**_ Javascript libraries and frameworks, <br /> 
 parc.js has the _**lowest**_ learning curve. <br /> 
-
+If you want to be the JavaScript developer <br /> 
+that codes faster, more simply, readably, <br /> 
+and securely than anyone else on your team; <br /> 
+then parc.js is the JavaScript library for you! <br /> 
+ 
 ## :zap:  Fast implementation 
  
 We have optimized our code to be as preformat as possible, <br /> 
@@ -61,7 +76,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
  
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. <br /> 
  
-## :thumbs_up: Acknowledgments 
+## :thumbsup: Acknowledgments 
  
  * My Dad - For helping me with business decisions. 
  * [@Nastyox](https://github.com/Nastyox) - For the creating [reporoster](https://reporoster.com/). 
@@ -79,8 +94,7 @@ This project has been worked on for al long time, <br />
 so if you want to contribute to our efforts, <br /> 
 please give us a star. <br />  
  
-You can also share this on twitter.  <br /> 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20parc%20js&url=https://github.com/VoltVault/parc.js&via=parc&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
+You can also share this on twitter. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20parc%20js&url=https://github.com/VoltVault/parc.js&via=parc&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
  
 <p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p> <br /> 
  
