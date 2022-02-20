@@ -1,0 +1,16 @@
+{
+	"opts": {
+		"sort": false,
+		"template": "./template"
+	},
+	"templates": {
+		"sort": false,
+		"cleverLinks": true,
+		"monospaceLinks": true
+	},
+	"plugins": [],
+	"source": {
+		"include": "./",
+		"includePattern": ".+.js(doc)?$"
+	}
+}
