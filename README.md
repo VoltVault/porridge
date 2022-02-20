@@ -1,6 +1,9 @@
+<div style="text-align: center;"> 
 # parc.js 
  
 🚗Parc.js is a new open source javascript 📖library. Feel free to contribute, and include an emoji in the commit message😄. 
+ 
+</div> 
  
 ## :zap:  Fast implementation 
  
@@ -17,7 +20,7 @@ and you can add it to you project with ease.
  
  > :warning: **Constant updates**: _Every_ time that parc updates, you _*copy && paste*_ the newest parc.js code. 
  
-You can copy the code at (/parc.js)[https://github.com/VoltVault/parc.js/blob/pre-release/parc.js]. 
+You can copy the code at [/parc.js](https://github.com/VoltVault/parc.js/blob/pre-release/parc.js). 
  
 ## &#8627; Stargazers 
  
@@ -29,4 +32,7 @@ You can copy the code at (/parc.js)[https://github.com/VoltVault/parc.js/blob/pr
 ## :clap:  Support this project 
  
 This project has been worked on for al long time, so if you want to contribute to our efforts, please give us a star. 
+ 
+You can also share this on twitter. 
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20parc%20js&url=https://github.com/VoltVault/parc.js&via=parc&hashtags=leiloukou,javascript,react,vue,developers) 
  
