@@ -294,7 +294,7 @@
 
         
             
-<h4 class="name" id="parclocalStorage"><span class="type-signature"></span>parclocalStorage<span class="type-signature"> :object</span></h4>
+<h4 class="name" id="parclocalStorage"><span class="type-signature">(constant) </span>parclocalStorage<span class="type-signature"> :object</span></h4>
 
 
 
@@ -310,6 +310,245 @@
         <li>
             
 <span class="param-type">object</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>setItem</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">This sets an item into the browser's localStorage.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>getItem</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">This function gets and returns an item from the browser's localStorage.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>getAll</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">This function gets every item in localStorage.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>preserveItem</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">This function preserves an item in localStorage.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>clear</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">This function clears localStorage, but excludes preservedItems.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>wipe</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">This function wipes localStorage, including preservedItems.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line29">line 29</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="setItem"><span class="type-signature">(constant) </span>setItem<span class="type-signature"> :function</span></h4>
+
+
+
+
+<div class="description">
+    This sets an item into the browser's localStorage.
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">function</span>
 
 
         </li>
@@ -348,7 +587,367 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line22">line 22</a>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line30">line 30</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="getItem"><span class="type-signature">(constant) </span>getItem<span class="type-signature"> :function</span></h4>
+
+
+
+
+<div class="description">
+    This gets an item from the browser's localStorage.
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">function</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line44">line 44</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="getAll"><span class="type-signature">(constant) </span>getAll<span class="type-signature"> :function</span></h4>
+
+
+
+
+<div class="description">
+    This function gets all items from the browser's localStorage.
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">function</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line68">line 68</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="preserveItem"><span class="type-signature">(constant) </span>preserveItem<span class="type-signature"> :function</span></h4>
+
+
+
+
+<div class="description">
+    This function preserves an currently in localStorage.If the item is not in localStorage, it will be added as a new item preserved item.A preserved item will not be cleared from localStorage running parc.localStorage.clear().If you want to clear all the items from localStorage you can use parc.localStorage.wipe().
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">function</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line98">line 98</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="clear"><span class="type-signature">(constant) </span>clear<span class="type-signature"> :function</span></h4>
+
+
+
+
+<div class="description">
+    This function will clear all items in localStorage, excluding any preserved items.A preserved item will not be cleared from localStorage running parc.localStorage.clear().If you want to clear all the items from localStorage you can use parc.localStorage.wipe().
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">function</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line120">line 120</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="wipe"><span class="type-signature">(constant) </span>wipe<span class="type-signature"> :function</span></h4>
+
+
+
+
+<div class="description">
+    This function clears all the items from localStorage, including preserved items.If you dont want to clear any preserved items, you can use parc.localStorage.clear() instead.
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">function</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="parc.js.html">parc.js</a>, <a href="parc.js.html#line144">line 144</a>
     </li></ul></dd>
     
 
@@ -382,13 +981,13 @@
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#parc">parc</a></li><li><a href="global.html#parclocalStorage">parclocalStorage</a></li></ul>
+    <h2>Introduction</h2><h3>Usage</h3><ul><li><a href="global.html#parc">parc</a></li><li><a href="global.html#parclocalStorage">parclocalStorage</a></li><li><a href="global.html#setItem">setItem</a></li><li><a href="global.html#getItem">getItem</a></li><li><a href="global.html#getAll">getAll</a></li><li><a href="global.html#preserveItem">preserveItem</a></li><li><a href="global.html#clear">clear</a></li><li><a href="global.html#wipe">wipe</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.10</a> on Thu Feb 17 2022 22:44:43 GMT-0500 (Eastern Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.10</a> on Sat Feb 19 2022 19:16:45 GMT-0500 (Eastern Standard Time)
 </footer>
 
 <script> prettyPrint(); </script>

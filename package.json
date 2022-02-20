@@ -1,10 +1,11 @@
 {
   "name": "parc-js",
   "version": "1.0.0",
-  "description": "Parc js is a js library.",
+  "description": "Parc.js is an open source Javascript library.",
   "main": "index.js",
   "scripts": {
-    "doc": "jsdoc parc.js"
+    "doc": "jsdoc parc.js",
+    "config":  "jsdoc -c ./docs/config.json"
   },
   "keywords": [
     "Parc",
@@ -12,11 +13,12 @@
     "Lil' Wuth",
     "Leiloukou",
     "JS",
-    "React"
+    "React",
+    "Vue"
   ],
   "author": "Lil' Wuth",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "jsdoc": "^3.6.10"
   }
 }
