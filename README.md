@@ -96,5 +96,5 @@ please give us a star. <br />
  
 You can also share this on twitter. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20parc%20js&url=https://github.com/VoltVault/parc.js&via=parc&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
  
-<p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p> <br /> 
+<p align="center"><a href="#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p> <br /> 
  
