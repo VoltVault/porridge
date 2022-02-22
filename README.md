@@ -6,6 +6,7 @@
 <br /> 
 <br /> 
  
+<p align="center"><img src="https://github.com/leiloukou/leiloukou-sm/icons/favicon-512.png" alt="The parc.js logo"></img></a> 
 <h1 align="center">parc.js</h1> 
 <p align="center"> 
 🚗 Parc.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
@@ -51,7 +52,7 @@ then parc.js is the JavaScript library for you! <br />
 We have optimized our code to be as preformat as possible, <br /> 
 and you can add it to you project with ease. <br /> 
 
-### <span color="orange">&lt;/></span> Implementation through a script tag:
+### &lt;/> Implementation through a script tag:
  
 ```html
 <script "https://raw.githubusercontent.com/Leiloukou/parcjs/main/parc.js" type="text/javascript" async></script>
@@ -91,11 +92,11 @@ and the process for submitting pull requests to us. <br />
 We use <a href="https://git-scm.com/" target="_blank" rel="noopener">Git && Github</a> for versioning. <br /> 
 For the versions available, see the [tags on this repository](https://github.com/voltvault/parc.js/tags/). <br /> 
  
-## Authors 
+## 🌱 Authors & Contributors
  
  * **Lil' Wuth** - *Initial work* - [@leiloukou](https://github.com/leiloukou/). 
  
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. <br /> 
+See also the list of [contributors](https://github.com/voltvault/parc.js/contributors) who participated in this project. <br /> 
  
 ## ❗ License 
  
