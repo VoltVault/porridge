@@ -6,7 +6,7 @@
 <br /> 
 <br /> 
  
-<p align="center"><img src="https://github.com/leiloukou/leiloukou-sm/icons/favicon-512.png" alt="The parc.js logo"></img></a> 
+<p align="center"><img src="https://raw.githubusercontent.com/leiloukou/leiloukou-sm/main/icons/favicon-512.png" alt="The parc.js logo"></img></a> 
 <h1 align="center">parc.js</h1> 
 <p align="center"> 
 🚗 Parc.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
