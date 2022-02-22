@@ -5,6 +5,7 @@
  * The parc object will contain all of the functions you will use from parc.
  * Warning: Don't assign any variable with a name that starts with the word "parc".
  *
+ * @global
  * @format
  * @constant
  * @type {object}
@@ -21,6 +22,7 @@ let parc = {};
  * This is the localStorage object.
  * This includes all the localStorage methods and also methods like preserving an item, and getting all the localStorage items.
  *
+ * @global
  * @memberof parc
  * @type {object}
  * @constant
@@ -37,6 +39,7 @@ parc.localStorage = {};
 /**
  * This sets an item into the browser's localStorage.
  *
+ * @global
  * @type {function}
  * @memberof parc.localStorage
  * @method parc.localStorage.setItem
@@ -52,6 +55,7 @@ parc.localStorage.setItem = (parcItemName, parcItemValue) => {
 /**
  * This gets an item from the browser's localStorage.
  *
+ * @global
  * @type {function}
  * @memberof parc.localStorage
  * @method parc.localStorage.getItem
@@ -77,6 +81,7 @@ parc.localStorage.getItem = (parcItemName) => {
 /**
  * This function gets all items from the browser's localStorage.
  *
+ * @global
  * @type {function}
  * @memberof parc.localStorage
  * @method parc.localStorage.getAll
@@ -111,6 +116,7 @@ parc.localStorage.getAll = () => {
  * A preserved item will not be cleared from localStorage running parc.localStorage.clear().
  * If you want to clear all the items from localStorage you can use parc.localStorage.wipe().
  *
+ * @global
  * @type {function}
  * @memberof parc.localStorage
  * @method parc.localStorage.preserveItem
@@ -133,6 +139,7 @@ parc.localStorage.preserveItem = (parcItemName, parcItemValue) => {
  * A preserved item will not be cleared from localStorage running parc.localStorage.clear().
  * If you want to clear all the items from localStorage you can use parc.localStorage.wipe().
  *
+ * @global
  * @type {function}
  * @memberof parc.localStorage
  * @method parc.localStorage.clear
@@ -153,6 +160,7 @@ parc.localStorage.clear = () => {
  * This function clears all the items from localStorage, including preserved items.
  * If you dont want to clear any preserved items, you can use parc.localStorage.clear() instead.
  *
+ * @global
  * @type {function}
  * @memberof parc.localStorage
  * @method parc.localStorage.wipe
@@ -174,6 +182,7 @@ parc.object = {};
 /**
  * This function will turn an object into an array.
  *
+ * @global
  * @param {object} parcObject The object to convert to array.
  * @returns {array} The returned array of converted from the passed object.
  */
@@ -194,6 +203,7 @@ parc.object.arrayify = (parcObject) => {
 /**
  * This function will turn an object into an array.
  *
+ * @global
  * @param {object} parcObject The object to convert to array.
  * @returns {array} The returned array of converted from the passed object.
  */
@@ -213,6 +223,7 @@ parc.array = {};
 /**
  * This function turns an array into an object.
  * 
+ * @global
  * @param {array} parcArray 
  * @returns {object}
  */
@@ -224,6 +235,7 @@ parc.array.objectify = (parcArray) => {
 /**
  * This function turns an array into an object.
  * 
+ * @global
  * @param {array} parcArray 
  * @returns {object}
  */
@@ -235,6 +247,7 @@ parc.array.toObject = (parcArray) => {
 /**
  * This function turns an array into a string.
  *
+ * @global
  * @param {array} parcArray This is the array that will be turned into a string.
  * @returns {string} Returns the passed array, as a string.
  */
@@ -246,6 +259,7 @@ parc.array.stringify = (parcArray) => {
 /**
  * This function turns an array into a string.
  *
+ * @global
  * @param {array} parcArray This is the array that will be turned into a string.
  * @returns {string} Returns the passed array, as a string.
  */
