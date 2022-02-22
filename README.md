@@ -51,7 +51,7 @@ then parc.js is the JavaScript library for you! <br />
 We have optimized our code to be as preformat as possible, <br /> 
 and you can add it to you project with ease. <br /> 
 
-### <span style="color: orange;">&lt;/></span> Implementation through a script tag:
+### <span color="orange">&lt;/></span> Implementation through a script tag:
  
 ```html
 <script "https://raw.githubusercontent.com/Leiloukou/parcjs/main/parc.js" type="text/javascript" async></script>
