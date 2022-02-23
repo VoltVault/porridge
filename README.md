@@ -6,25 +6,25 @@
 <br /> 
 <br /> 
  
-<p align="center"><img src="https://raw.githubusercontent.com/leiloukou/leiloukou-sm/main/icons/favicon-512.png" alt="The parc.js logo" height="145px"></img></a> 
-<h1 align="center">parc.js</h1> 
+<p align="center"><img src="https://raw.githubusercontent.com/leiloukou/leiloukou-sm/main/icons/favicon-512.png" alt="The Porridge.js logo" height="145px"></img></a> 
+<h1 align="center">Porridge.js</h1> 
 <p align="center"> 
-🚗 Parc.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
+🚗 Porridge.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
 </p> 
 <p align="center"> 
-<a href="https://github.com/VoltVault/parc.js/network/members/"><img src="https://img.shields.io/github/forks/VoltVault/parc.js" alt="Forks on this repo"></img></a> 
-<a href="https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20parc%20js&url=https://github.com/VoltVault/parc.js&via=parc&hashtags=leiloukou,javascript,react,vue,developers"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet" height="20"/></a> <a href="https://github.com/VoltVault/parc.js/stargazers/"><img src="https://img.shields.io/github/stars/VoltVault/parc.js" alt="Stars on this repo"></img></a> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/VoltVault/parc.js/total"></a> <a href="https://github.com/voltvault/parc.js/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/VoltVault/parc.js"></a> <a href="./CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Code of conduct" /></a> 
+<a href="https://github.com/VoltVault/porridge.js/network/members/"><img src="https://img.shields.io/github/forks/VoltVault/porridge.js" alt="Forks on this repo"></img></a> 
+<a href="https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20porridge%20js&url=https://github.com/VoltVault/porridge.js&via=porridge&hashtags=leiloukou,javascript,react,vue,developers"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet" height="20"/></a> <a href="https://github.com/VoltVault/porridge.js/stargazers/"><img src="https://img.shields.io/github/stars/VoltVault/porridge.js" alt="Stars on this repo"></img></a> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/VoltVault/porridge.js/total"></a> <a href="https://github.com/voltvault/porridge.js/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/VoltVault/porridge.js"></a> <a href="./CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Code of conduct" /></a> 
 </p> 
 <h3 align="center"> 
- <a href="https://parcjs.netlify.app/docs/">Get started</a> 
+ <a href="https://porridgejs.netlify.app/docs/">Get started</a> 
  <span> · </span> 
- <a href="https://parcjs.netlify.app/docs/">Docs</a> 
+ <a href="https://porridgejs.netlify.app/docs/">Docs</a> 
  <span> · </span> 
- <a href="https://github.com/voltvault/parc.js/discussions?discussions_q=category%3AIdeas">Feature request</a> 
+ <a href="https://github.com/voltvault/porridge.js/discussions?discussions_q=category%3AIdeas">Feature request</a> 
  <span> · </span> 
- <a href="https://github.com/voltvault/parc.js/issues">Report a bug</a> 
+ <a href="https://github.com/voltvault/porridge.js/issues">Report a bug</a> 
  <span> · </span> 
- Support: <a href="https://github.com/voltvault/parc.js/discussions">Discussions</a> 
+ Support: <a href="https://github.com/voltvault/porridge.js/discussions">Discussions</a> 
 </h3> 
  
 <br /> 
@@ -34,18 +34,18 @@
 <br /> 
 <br /> 
  
-## 🙉 Why should I even like parc? 
+## 🙉 Why should I even like Porridge? 
  
-Parc.js is the \#1 Javascript library <br /> 
+Porridge.js is the \#1 Javascript library <br /> 
 for beginners to experts. <br /> 
 No matter how much you know javascript, <br /> 
-parc.js will be perfect for you. <br /> 
+Porridge.js will be perfect for you. <br /> 
 Out of _**all**_ Javascript libraries and frameworks, <br /> 
-parc.js has the _**lowest**_ learning curve. <br /> 
+Porridge.js has the _**lowest**_ learning curve. <br /> 
 If you want to be the JavaScript developer <br /> 
 that codes faster, more simply, readably, <br /> 
 and securely than anyone else on your team; <br /> 
-then parc.js is the JavaScript library for you! <br /> 
+then Porridge.js is the JavaScript library for you! <br /> 
  
 ## ⚡ Fast implementation 
  
@@ -55,25 +55,25 @@ and you can add it to you project with ease. <br />
 ### &lt;/> Implementation through a script tag:
  
 ```html
-<script "https://raw.githubusercontent.com/Leiloukou/parcjs/main/parc.js" type="text/javascript" async></script>
+<script "https://raw.githubusercontent.com/voltvault/porridge.js/main/porridge.js" type="text/javascript" async></script>
 ``` 
 <br /> 
  
 ### &lt;/> Implementation through self hosted javascript 
  
- > :warning: **Constant updates**: _Every_ time that parc updates, you have to _*copy && paste*_ the newest parc.js code. 
+ > :warning: **Constant updates**: _Every_ time that Porridge.js updates, you have to _*copy && paste*_ the newest Porridge.js code. 
  
-You can copy the code at the [parc.js](https://github.com/VoltVault/parc.js/blob/main/parc.js) file. <br /> 
-Or view the raw code at https://raw.githubusercontent.com/Leiloukou/parcjs/main/parc.js.
+You can copy the code at the [Porridge.js](https://github.com/VoltVault/porridge.js/blob/main/porridge.js) file. <br /> 
+Or view the raw code at https://raw.githubusercontent.com/voltvault/porridge.js/main/porridge.js.
 
-## 🎓 learning parc 
+## 🎓 learning Porridge 
  
-If you would like to learn th art of parc, <br /> 
-The documentation [lives here](https://parcjs.netlify.app/docs/) <br /> 
+If you would like to learn th art of Porridge, <br /> 
+The documentation [lives here](https://porridgejs.netlify.app/docs/) <br /> 
  
 ## 💬 Community
 
-If you have a question or would like to talk with other parc.js <br /> 
+If you have a question or would like to talk with other Porridge.js <br /> 
 users and join our community, please hop over to [Github discussions](https://github.com/Budibase/budibase/discussions). <br /> 
  
 ## ⚒️ Built With 
@@ -82,7 +82,7 @@ users and join our community, please hop over to [Github discussions](https://gi
  
 ## 🙌 Contributing 
  
-Please read [CONTRIBUTE.md](https://github.com/VoltVault/parc.js/blob/main/CONTRIBUTE.md#contribution), [CODE_OF_CONDUCT.md](https://github.com/VoltVault/parc.js/blob/main/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct), and the [Github Site Policy](https://docs.github.com/github/site-policy) for details on our code of conduct, <br /> 
+Please read [CONTRIBUTE.md](https://github.com/VoltVault/porridge.js/blob/main/CONTRIBUTE.md#contribution), [CODE_OF_CONDUCT.md](https://github.com/VoltVault/porridge.js/blob/main/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct), and the [Github Site Policy](https://docs.github.com/github/site-policy) for details on our code of conduct, <br /> 
 and the process for submitting pull requests to us. <br /> 
 
  > :warning: **The code of conduct and contributing rules are always enforced**: <br /> you must abide by the rules, and terms in both the <br /> CODE_OF_CONDUCT.md file, the CONTRIBUTION.md file, and the Github Sit Policy <br /> 
@@ -90,13 +90,13 @@ and the process for submitting pull requests to us. <br />
 ## 🧮 Versioning 
  
 We use <a href="https://git-scm.com/" target="_blank" rel="noopener">Git && Github</a> for versioning. <br /> 
-For the versions available, see the [tags on this repository](https://github.com/voltvault/parc.js/tags/). <br /> 
+For the versions available, see the [tags on this repository](https://github.com/voltvault/porridge.js/tags/). <br /> 
  
 ## 🌱 Authors & Contributors
  
  * **Lil' Wuth** - *Initial work* - [@leiloukou](https://github.com/leiloukou/). 
  
-See also the list of [contributors](https://github.com/voltvault/parc.js/contributors) who participated in this project. <br /> 
+See also the list of [contributors](https://github.com/voltvault/porridge.js/contributors) who participated in this project. <br /> 
  
 ## ❗ License 
  
@@ -110,10 +110,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
  
 ## &#8627; Stargazers 
  
-[![Stargazers repo roster for @VoltVault/parc.js](https://reporoster.com/stars/dark/notext/VoltVault/parc.js)](https://github.com/VoltVault/parc.js/stargazers) <br /> 
+[![Stargazers repo roster for @VoltVault/porridge.js](https://reporoster.com/stars/dark/notext/VoltVault/porridge.js)](https://github.com/VoltVault/porridge.js/stargazers) <br /> 
  
 ## &#8627; Forkers 
-[![Forkers repo roster for @VoltVault/parc.js](https://reporoster.com/forks/dark/notext/VoltVault/parc.js)](https://github.com/VoltVault/parc.js/network/members) <br /> 
+[![Forkers repo roster for @VoltVault/porridge.js](https://reporoster.com/forks/dark/notext/VoltVault/porridge.js)](https://github.com/VoltVault/porridge.js/network/members) <br /> 
  
 ## 👏 Support this project 
  
@@ -121,6 +121,6 @@ This project has been worked on for al long time, <br />
 so if you want to contribute to our efforts, <br /> 
 please give us a star. <br /> 
  
-You can also share this on twitter. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20parc%20js&url=https://github.com/VoltVault/parc.js&via=parc&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
+You can also share this on twitter. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20porridge%20js&url=https://github.com/VoltVault/porridge.js&via=porridge&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
  
-<p align="center"><a href="#parcjs"><img src="https://img.shields.io/badge/%E2%86%91-Back%20to%20top-lightgrey" alt="Back to top" height="29"/></a></p> <br /> 
+<p align="center"><a href="#porridgejs"><img src="https://img.shields.io/badge/%E2%86%91-Back%20to%20top-lightgrey" alt="Back to top" height="29"/></a></p> <br /> 
