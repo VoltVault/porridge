@@ -12,19 +12,19 @@
 🚗 Porridge.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
 </p> 
 <p align="center"> 
-<a href="https://github.com/VoltVault/porridge.js/network/members/"><img src="https://img.shields.io/github/forks/VoltVault/porridge.js" alt="Forks on this repo"></img></a> 
-<a href="https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20porridge%20js&url=https://github.com/VoltVault/porridge.js&via=porridge&hashtags=leiloukou,javascript,react,vue,developers"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet" height="20"/></a> <a href="https://github.com/VoltVault/porridge.js/stargazers/"><img src="https://img.shields.io/github/stars/VoltVault/porridge.js" alt="Stars on this repo"></img></a> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/VoltVault/porridge.js/total"></a> <a href="https://github.com/voltvault/porridge.js/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/VoltVault/porridge.js"></a> <a href="./CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Code of conduct" /></a> 
+<a href="https://github.com/VoltVault/porridge/network/members/"><img src="https://img.shields.io/github/forks/VoltVault/porridge" alt="Forks on this repo"></img></a> 
+<a href="https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20porridge%20js&url=https://github.com/VoltVault/porridge&via=porridge&hashtags=leiloukou,javascript,react,vue,developers"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet" height="20"/></a> <a href="https://github.com/VoltVault/porridge/stargazers/"><img src="https://img.shields.io/github/stars/VoltVault/porridge" alt="Stars on this repo"></img></a> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/VoltVault/porridge/total"></a> <a href="https://github.com/voltvault/porridge/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/VoltVault/porridge"></a> <a href="./CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Code of conduct" /></a> 
 </p> 
 <h3 align="center"> 
  <a href="https://porridgejs.netlify.app/docs/">Get started</a> 
  <span> · </span> 
  <a href="https://porridgejs.netlify.app/docs/">Docs</a> 
  <span> · </span> 
- <a href="https://github.com/voltvault/porridge.js/discussions?discussions_q=category%3AIdeas">Feature request</a> 
+ <a href="https://github.com/voltvault/porridge/discussions?discussions_q=category%3AIdeas">Feature request</a> 
  <span> · </span> 
- <a href="https://github.com/voltvault/porridge.js/issues">Report a bug</a> 
+ <a href="https://github.com/voltvault/porridge/issues">Report a bug</a> 
  <span> · </span> 
- Support: <a href="https://github.com/voltvault/porridge.js/discussions">Discussions</a> 
+ Support: <a href="https://github.com/voltvault/porridge/discussions">Discussions</a> 
 </h3> 
  
 <br /> 
@@ -55,7 +55,7 @@ and you can add it to you project with ease. <br />
 ### &lt;/> Implementation through a script tag:
  
 ```html
-<script "https://raw.githubusercontent.com/voltvault/porridge.js/main/porridge.js" type="text/javascript" async></script>
+<script "https://raw.githubusercontent.com/voltvault/porridge/main/porridge" type="text/javascript" async></script>
 ``` 
 <br /> 
  
@@ -63,8 +63,8 @@ and you can add it to you project with ease. <br />
  
  > :warning: **Constant updates**: _Every_ time that Porridge.js updates, you have to _*copy && paste*_ the newest Porridge.js code. 
  
-You can copy the code at the [Porridge.js](https://github.com/VoltVault/porridge.js/blob/main/porridge.js) file. <br /> 
-Or view the raw code at https://raw.githubusercontent.com/voltvault/porridge.js/main/porridge.js.
+You can copy the code at the [Porridge.js](https://github.com/VoltVault/porridge/blob/main/porridge) file. <br /> 
+Or view the raw code at https://raw.githubusercontent.com/voltvault/porridge/main/porridge.js.
 
 ## 🎓 learning Porridge 
  
@@ -82,7 +82,7 @@ users and join our community, please hop over to [Github discussions](https://gi
  
 ## 🙌 Contributing 
  
-Please read [CONTRIBUTE.md](https://github.com/VoltVault/porridge.js/blob/main/CONTRIBUTE.md#contribution), [CODE_OF_CONDUCT.md](https://github.com/VoltVault/porridge.js/blob/main/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct), and the [Github Site Policy](https://docs.github.com/github/site-policy) for details on our code of conduct, <br /> 
+Please read [CONTRIBUTE.md](https://github.com/VoltVault/porridge/blob/main/CONTRIBUTE.md#contribution), [CODE_OF_CONDUCT.md](https://github.com/VoltVault/porridge/blob/main/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct), and the [Github Site Policy](https://docs.github.com/github/site-policy) for details on our code of conduct, <br /> 
 and the process for submitting pull requests to us. <br /> 
 
  > :warning: **The code of conduct and contributing rules are always enforced**: <br /> you must abide by the rules, and terms in both the <br /> CODE_OF_CONDUCT.md file, the CONTRIBUTION.md file, and the Github Sit Policy <br /> 
@@ -90,13 +90,13 @@ and the process for submitting pull requests to us. <br />
 ## 🧮 Versioning 
  
 We use <a href="https://git-scm.com/" target="_blank" rel="noopener">Git && Github</a> for versioning. <br /> 
-For the versions available, see the [tags on this repository](https://github.com/voltvault/porridge.js/tags/). <br /> 
+For the versions available, see the [tags on this repository](https://github.com/voltvault/porridge/tags/). <br /> 
  
 ## 🌱 Authors & Contributors
  
  * **Lil' Wuth** - *Initial work* - [@leiloukou](https://github.com/leiloukou/). 
  
-See also the list of [contributors](https://github.com/voltvault/porridge.js/contributors) who participated in this project. <br /> 
+See also the list of [contributors](https://github.com/voltvault/porridge/contributors) who participated in this project. <br /> 
  
 ## ❗ License 
  
@@ -110,10 +110,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
  
 ## &#8627; Stargazers 
  
-[![Stargazers repo roster for @VoltVault/porridge.js](https://reporoster.com/stars/dark/notext/VoltVault/porridge.js)](https://github.com/VoltVault/porridge.js/stargazers) <br /> 
+[![Stargazers repo roster for @VoltVault/porridge](https://reporoster.com/stars/dark/notext/VoltVault/porridge)](https://github.com/VoltVault/porridge/stargazers) <br /> 
  
 ## &#8627; Forkers 
-[![Forkers repo roster for @VoltVault/porridge.js](https://reporoster.com/forks/dark/notext/VoltVault/porridge.js)](https://github.com/VoltVault/porridge.js/network/members) <br /> 
+[![Forkers repo roster for @VoltVault/porridge](https://reporoster.com/forks/dark/notext/VoltVault/porridge)](https://github.com/VoltVault/porridge/network/members) <br /> 
  
 ## 👏 Support this project 
  
@@ -121,6 +121,6 @@ This project has been worked on for al long time, <br />
 so if you want to contribute to our efforts, <br /> 
 please give us a star. <br /> 
  
-You can also share this on twitter. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20porridge%20js&url=https://github.com/VoltVault/porridge.js&via=porridge&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
+You can also share this on twitter. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Ckeck%20out%20this%20new%20javascript%20library%20called%20porridge%20js&url=https://github.com/VoltVault/porridge&via=porridge&hashtags=leiloukou,javascript,react,vue,developers) <br /> 
  
 <p align="center"><a href="#porridgejs"><img src="https://img.shields.io/badge/%E2%86%91-Back%20to%20top-lightgrey" alt="Back to top" height="29"/></a></p> <br /> 
