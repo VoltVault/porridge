@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "doc": "jsdoc parc.js",
-    "config":  "jsdoc -c ./docs/config.json"
+    "config": "jsdoc -c ./docs/config.json"
   },
   "keywords": [
     "Parc",
