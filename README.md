@@ -6,7 +6,7 @@
 <br /> 
 <br /> 
  
-<p align="center"><img src="https://raw.githubusercontent.com/leiloukou/leiloukou-sm/main/icons/favicon-512.png" alt="The Porridge.js logo" height="145px"></img></a> 
+<p align="center"><img src="https://github.com/VoltVault/porridge-docs/blob/main/public/logo512.png?raw=true" alt="The Porridge.js logo" height="145px"></img></a> 
 <h1 align="center">Porridge.js</h1> 
 <p align="center"> 
 🚗 Porridge.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
