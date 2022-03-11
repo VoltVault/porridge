@@ -54,8 +54,10 @@ and you can add it to you project with ease. <br />
 
 ### &lt;/> Implementation through a script tag:
  
+Make sure to put it above all other scripts. <br /> 
+ 
 ```html
-<script "https://raw.githubusercontent.com/voltvault/porridge/main/porridge" type="text/javascript" async></script>
+<script src="https://raw.githubusercontent.com/voltvault/porridge/main/porridge" type="text/javascript" async></script>
 ``` 
 <br /> 
  
