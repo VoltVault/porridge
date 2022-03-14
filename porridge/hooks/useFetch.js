@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  * @param {string} porridgeUrl
  * @param {object} porridgeOptions
  */
-export default function useFetch(porridgeUrl, porridgeOptions) {
+function useFetch(porridgeUrl, porridgeOptions) {
 	if (!porridgeUrl) throw new Error('The first parameter is required.');
 	if (typeof porridgeUrl != 'string')
 		throw new Error('The first parameter must be a string.');
@@ -48,3 +48,5 @@ useFetch.propTypes = {
 	porridgeUrl: PropTypes.string.isRequired,
 	porridgeOptions: PropTypes.object
 };
+
+export default useFetch
