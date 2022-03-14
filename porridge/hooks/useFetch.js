@@ -48,5 +48,3 @@ useFetch.propTypes = {
 	porridgeUrl: PropTypes.string.isRequired,
 	porridgeOptions: PropTypes.object
 };
-
-export default useFetch
