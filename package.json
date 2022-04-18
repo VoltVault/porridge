@@ -1,11 +1,11 @@
 {
-  "name": "parc-js",
-  "version": "1.0.0",
+  "name": "parc",
+  "version": "1.2.1",
   "description": "Parc.js is an open source Javascript library.",
   "main": "index.js",
   "scripts": {
-    "doc": "jsdoc parc.js",
-    "config": "jsdoc -c ./docs/config.json"
+    "dev": "tsc --watch",
+    "comp": "tsc"
   },
   "keywords": [
     "Parc",
@@ -18,7 +18,15 @@
   ],
   "author": "Lil' Wuth",
   "license": "MIT",
-  "devDependencies": {
-    "jsdoc": "^3.6.10"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoltVault/porridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VoltVault/porridge/issues"
+  },
+  "homepage": "https://github.com/VoltVault/porridge#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
   }
 }
