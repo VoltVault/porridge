@@ -53,7 +53,7 @@ then Porridge.js is the JavaScript library for you! <br />
 We have optimized our code to be as preformat as possible, <br /> 
 and you can add it to you project with ease. <br />
 
-### &lt;/> Implementation through a script tag:
+### 💻 Implementation through a script tag:
 
 Make sure to put it above all other scripts. <br />
 
@@ -63,12 +63,12 @@ Make sure to put it above all other scripts. <br />
 
 <br /> 
  
-### &lt;/> Implementation through self hosted javascript 
+### 🦈 Implementation through self hosted javascript 
  
  > :warning: **Constant updates**: _Every_ time that Porridge.js updates, you have to _*copy && paste*_ the newest Porridge.js code. 
  
 You can copy the code at the [index.js](https://github.com/VoltVault/porridge/blob/main/porridge/index.js) file. <br /> 
-Or view the raw code at https://raw.githubusercontent.com/voltvault/porridge/main/porridge.js.
+Or view the raw code at https://porridge-cdn.netlify.app/porridge/index.js
 
 ## 🎓 learning Porridge
 
