@@ -58,12 +58,7 @@ and you can add it to you project with ease. <br />
 Make sure to put it above all other scripts. <br />
 
 ```html
-<script
-	src="https://porridge-cdn.netlify.app/porridge/index.js"
-	type="text/javascript"
-	async
-	defer
-></script>
+<script src="https://porridge-cdn.netlify.app/porridge/index.js" type="text/javascript" async defer></script>
 ```
 
 <br /> 
@@ -90,12 +85,7 @@ First you will include the porridge.js link, <br />
 at the top of your head tag. <br />
 
 ```html
-<script
-	src="https://porridge-cdn.netlify.app/porridge/index.js"
-	type="text/javascript"
-	async
-	defer
-></script>
+<script src="https://porridge-cdn.netlify.app/porridge/index.js" type="text/javascript" async defer></script>
 ```
 
 Next, you will create a function that will <br />
