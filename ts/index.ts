@@ -5,37 +5,52 @@
 const porridge: any = {
 	development: false,
 	version: '1.2.1',
-	help: () => {
+	help: function () {
 		console.log('porridge.help() has returned: \n', porridge);
 	},
-	clone: (obj: any = {}) => {
+	clone: function (obj: any = {}) {
 		return JSON.parse(JSON.stringify(obj));
 	},
-	qs: (sel: string, par: Element | Document = window.document) => {
+	qs: function (sel: string, par: Element | Document = window.document) {
 		if (sel) return par.querySelector(sel);
 		throw new Error(`Function "qs" expected 1 or 2 arguments, but found 0`);
 	},
-	qsa: (sel: string, par: Element | Document = window.document) => {
+	qsa: function (sel: string, par: Element | Document = window.document) {
 		if (sel) return [...par.querySelectorAll(sel)];
 		throw new Error(
 			`Function "qsa" expected 1 or 2 arguments, but found 0`
 		);
 	},
-	qsaRaw: (sel: string, par: Element | Document = window.document) => {
+	qsaRaw: function (sel: string, par: Element | Document = window.document) {
 		if (sel) return par.querySelectorAll(sel);
 		throw new Error(
 			`Function "qsaRaw" expected 1 or 2 arguments, but found 0`
 		);
 	},
-	sleep: (del: number) => {
-		return new Promise((res) => {
+	ready: function (cb: Function) {
+		const isReady = this.some(function (e: any) {
+			return e.readyState != null && e.readyState != 'loading';
+		});
+
+		if (isReady) {
+			cb();
+		} else {
+			// @ts-ignore leiloukou is best, leil
+			document.addEventListener('DOMContentLoaded', cb);
+		}
+	},
+	// on: function(evt: string, cb: Function = (): void => {if (porridge.development != false) {console.warn('You forgot to pass the second argument to the porridge.on function. \nMake sure the first arg is a string, and the second arg is a function.')}}) {
+
+	// },
+	sleep: function (del: number) {
+		return new Promise(function(res) {
 			setTimeout(res, del);
 		});
 	},
-	rand: (min: number, max: number) => {
+	rand: function (min: number, max: number) {
 		return Math.floor(Math.random() * (max - min + 1) + min);
 	},
-	range: (start: number, end: number, step: number = 1) => {
+	range: function (start: number, end: number, step: number = 1) {
 		return {
 			[Symbol.iterator]() {
 				return this;
@@ -50,10 +65,13 @@ const porridge: any = {
 		};
 	},
 	localStorage: {
-		setItem: (porridgeItemName: string, porridgeItemValue: string) => {
+		setItem: function (
+			porridgeItemName: string,
+			porridgeItemValue: string
+		) {
 			localStorage.setItem(porridgeItemName, porridgeItemValue);
 		},
-		getItem: (porridgeItemName: string) => {
+		getItem: function (porridgeItemName: string) {
 			if (localStorage.getItem(porridgeItemName) === null) {
 				if (
 					localStorage.getItem(
@@ -68,10 +86,10 @@ const porridge: any = {
 				return localStorage.getItem(porridgeItemName);
 			}
 		},
-		getAll: () => {
+		getAll: function () {
 			let porridgeResult: { name: string; value: string | null }[] = [];
 			Object.keys(JSON.parse(JSON.stringify(localStorage))).forEach(
-				(porridgeLocalStorageItem) => {
+				function (porridgeLocalStorageItem) {
 					porridgeResult.push({
 						name: porridgeLocalStorageItem.replace(
 							'porridgePreservedItem:-',
@@ -88,7 +106,10 @@ const porridge: any = {
 			);
 			return porridgeResult;
 		},
-		preserveItem: (porridgeItemName: string, porridgeItemValue: string) => {
+		preserveItem: function (
+			porridgeItemName: string,
+			porridgeItemValue: string
+		) {
 			if (localStorage.getItem(porridgeItemName) !== null) {
 				localStorage.removeItem(porridgeItemName);
 			}
@@ -97,9 +118,9 @@ const porridge: any = {
 				porridgeItemValue
 			);
 		},
-		clear: () => {
+		clear: function () {
 			Object.keys(JSON.parse(JSON.stringify(localStorage))).forEach(
-				(porridgeItemName) => {
+				function (porridgeItemName) {
 					if (
 						/porridgePreservedItem:-/.test(porridgeItemName) ===
 						false
@@ -109,20 +130,20 @@ const porridge: any = {
 				}
 			);
 		},
-		wipe: () => {
+		wipe: function () {
 			localStorage.clear();
 		}
 	},
 	array: {
-		rand: (arr: any) => {
+		rand: function(arr: any) {
 			return arr[Math.floor(Math.random() * (arr.length - 2))];
 		},
-		idx: (
+		idx: function(
 			arr: any,
 			key: any,
 			start: number = 0,
 			end: number = arr.length
-		) => {
+		) {
 			if (start > end)
 				throw new Error(
 					'This starting value is more than the ending value'
@@ -142,52 +163,10 @@ const porridge: any = {
 				return porridge.array.idx(arr, key, middle + 1, end);
 			}
 		},
-		pluck: (arr: any, key: any) => {
-			return arr.filter((itm: any) => itm !== key);
+		pluck: function(arr: any, key: any) {
+			return arr.filter(function(itm: any) { return itm !== key });
 		}
 	}
 };
 
-let alphabet: object = [
-	'A',
-	'B',
-	'C',
-	'D',
-	'E',
-	'F',
-	'G',
-	'H',
-	'I',
-	'J',
-	'K',
-	'L',
-	'M',
-	'N',
-	'O',
-	'P',
-	'Q',
-	'R',
-	'S',
-	'T',
-	'U',
-	'V',
-	'W',
-	'X',
-	'Y',
-	'Z',
-	'asdf'
-];
-
-// OH means ont to hundred //
-let oh = [
-	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-	22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
-	41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
-	60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78,
-	79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97,
-	98, 99, 100
-];
-
-console.time('MS');
-console.log(porridge.array);
-console.timeEnd('MS');
+porridge.on('load');

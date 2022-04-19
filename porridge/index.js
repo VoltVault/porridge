@@ -1,37 +1,52 @@
+/** @format */
 'use strict';
 const porridge = {
     development: false,
     version: '1.2.1',
-    help: () => {
+    help: function () {
         console.log('porridge.help() has returned: \n', porridge);
     },
-    clone: (obj = {}) => {
+    clone: function (obj = {}) {
         return JSON.parse(JSON.stringify(obj));
     },
-    qs: (sel, par = window.document) => {
+    qs: function (sel, par = window.document) {
         if (sel)
             return par.querySelector(sel);
         throw new Error(`Function "qs" expected 1 or 2 arguments, but found 0`);
     },
-    qsa: (sel, par = window.document) => {
+    qsa: function (sel, par = window.document) {
         if (sel)
             return [...par.querySelectorAll(sel)];
         throw new Error(`Function "qsa" expected 1 or 2 arguments, but found 0`);
     },
-    qsaRaw: (sel, par = window.document) => {
+    qsaRaw: function (sel, par = window.document) {
         if (sel)
             return par.querySelectorAll(sel);
         throw new Error(`Function "qsaRaw" expected 1 or 2 arguments, but found 0`);
     },
-    sleep: (del) => {
-        return new Promise((res) => {
+    ready: function (cb) {
+        const isReady = this.some(function (e) {
+            return e.readyState != null && e.readyState != 'loading';
+        });
+        if (isReady) {
+            cb();
+        }
+        else {
+            // @ts-ignore leiloukou is best, leil
+            document.addEventListener('DOMContentLoaded', cb);
+        }
+    },
+    // on: function(evt: string, cb: Function = (): void => {if (porridge.development != false) {console.warn('You forgot to pass the second argument to the porridge.on function. \nMake sure the first arg is a string, and the second arg is a function.')}}) {
+    // },
+    sleep: function (del) {
+        return new Promise(function (res) {
             setTimeout(res, del);
         });
     },
-    rand: (min, max) => {
+    rand: function (min, max) {
         return Math.floor(Math.random() * (max - min + 1) + min);
     },
-    range: (start, end, step = 1) => {
+    range: function (start, end, step = 1) {
         return {
             [Symbol.iterator]() {
                 return this;
@@ -46,10 +61,10 @@ const porridge = {
         };
     },
     localStorage: {
-        setItem: (porridgeItemName, porridgeItemValue) => {
+        setItem: function (porridgeItemName, porridgeItemValue) {
             localStorage.setItem(porridgeItemName, porridgeItemValue);
         },
-        getItem: (porridgeItemName) => {
+        getItem: function (porridgeItemName) {
             if (localStorage.getItem(porridgeItemName) === null) {
                 if (localStorage.getItem(`porridgePreservedItem:-${porridgeItemName}`)) {
                     return localStorage.getItem(`porridgePreservedItem:-${porridgeItemName}`);
@@ -59,9 +74,9 @@ const porridge = {
                 return localStorage.getItem(porridgeItemName);
             }
         },
-        getAll: () => {
+        getAll: function () {
             let porridgeResult = [];
-            Object.keys(JSON.parse(JSON.stringify(localStorage))).forEach((porridgeLocalStorageItem) => {
+            Object.keys(JSON.parse(JSON.stringify(localStorage))).forEach(function (porridgeLocalStorageItem) {
                 porridgeResult.push({
                     name: porridgeLocalStorageItem.replace('porridgePreservedItem:-', ''),
                     value: localStorage.getItem(porridgeLocalStorageItem.replace('porridgePreservedItem:-', ''))
@@ -69,29 +84,29 @@ const porridge = {
             });
             return porridgeResult;
         },
-        preserveItem: (porridgeItemName, porridgeItemValue) => {
+        preserveItem: function (porridgeItemName, porridgeItemValue) {
             if (localStorage.getItem(porridgeItemName) !== null) {
                 localStorage.removeItem(porridgeItemName);
             }
             localStorage.setItem(`porridgePreservedItem:-${porridgeItemName}`, porridgeItemValue);
         },
-        clear: () => {
-            Object.keys(JSON.parse(JSON.stringify(localStorage))).forEach((porridgeItemName) => {
+        clear: function () {
+            Object.keys(JSON.parse(JSON.stringify(localStorage))).forEach(function (porridgeItemName) {
                 if (/porridgePreservedItem:-/.test(porridgeItemName) ===
                     false) {
                     localStorage.removeItem(porridgeItemName);
                 }
             });
         },
-        wipe: () => {
+        wipe: function () {
             localStorage.clear();
         }
     },
     array: {
-        rand: (arr) => {
+        rand: function (arr) {
             return arr[Math.floor(Math.random() * (arr.length - 2))];
         },
-        idx: (arr, key, start = 0, end = arr.length) => {
+        idx: function (arr, key, start = 0, end = arr.length) {
             if (start > end)
                 throw new Error('This starting value is more than the ending value');
             const middle = Math.floor((start + end) / 2);
@@ -105,48 +120,9 @@ const porridge = {
                 return porridge.array.idx(arr, key, middle + 1, end);
             }
         },
-        pluck: (arr, key) => {
-            return arr.filter((itm) => itm !== key);
+        pluck: function (arr, key) {
+            return arr.filter(function (itm) { return itm !== key; });
         }
     }
 };
-let alphabet = [
-    'A',
-    'B',
-    'C',
-    'D',
-    'E',
-    'F',
-    'G',
-    'H',
-    'I',
-    'J',
-    'K',
-    'L',
-    'M',
-    'N',
-    'O',
-    'P',
-    'Q',
-    'R',
-    'S',
-    'T',
-    'U',
-    'V',
-    'W',
-    'X',
-    'Y',
-    'Z',
-    'asdf'
-];
-let oh = [
-    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-    22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
-    41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
-    60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78,
-    79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97,
-    98, 99, 100
-];
-console.time('MS');
-console.log(porridge.array);
-console.timeEnd('MS');
+porridge.on('load');
