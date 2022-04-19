@@ -125,4 +125,3 @@ const porridge = {
         }
     }
 };
-porridge.on('load');
