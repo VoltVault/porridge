@@ -73,6 +73,65 @@ Or view the raw code at https://raw.githubusercontent.com/voltvault/porridge/mai
 If you would like to learn th art of Porridge, <br /> 
 The documentation [lives here](https://porridgejs.netlify.app/docs/) <br /> 
  
+## 🥐 Everyday uses 
+ 
+Let's look at some real world examples. 
+ 
+### Random filters 
+ 
+First you will include the porridge.js link, <br /> 
+at the top of your head tag. <br /> 
+  
+```html
+<script src="https://porridge-cdn.netlify.app/porridge/index.js" type="text/javascript" async defer></script>
+``` 
+ 
+Next, you will create a function that will <br /> 
+get a random filter from an array of filters. <br /> 
+⚠️ **Note:** Your array of filters can be an array of anything.. <br /> 
+ 
+```javascript 
+// You do not have to have an array of objects,
+// you can have an array of anything, including:
+//     arrays, strings,
+//     numbers, floats,
+//     dates, objects,
+//     booleans, other variables,
+//     and even functions!
+const filters = [
+    {
+        name: 'Pug Face',
+        code: 'a91nc49',
+    },
+    {
+        name: 'Flower Crown',
+        code: '1nv0ehx',
+    },
+    {
+        name: 'Balloon Head',
+        code: 'hq9ch3b',
+    },
+    {
+        name: 'French Fry',
+        code: 'qn8e7dc',
+    },
+    {
+        name: 'Stretch-a-Noodle',
+        code: '8xhd3jc',
+    },
+];
+
+let randomFilter;
+
+function generateRandomFilter() {
+    randomFilter = porridge.array.rand(filters)
+
+    return randomFilter
+}
+``` 
+ 
+Make sure to check out the docs to see even more practical usage. 
+ 
 ## 💬 Community
 
 If you have a question or would like to talk with other Porridge.js <br /> 

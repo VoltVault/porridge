@@ -7,6 +7,7 @@ const porridge: any = {
 	version: '1.2.1',
 	help: function () {
 		console.log('porridge.help() has returned: \n', porridge);
+        return porridge
 	},
 	clone: function (obj: any = {}) {
 		return JSON.parse(JSON.stringify(obj));
