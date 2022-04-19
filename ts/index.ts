@@ -43,10 +43,28 @@ const porridge: any = {
 
 	// },
 	sleep: function (del: number) {
-		return new Promise(function(res) {
+		return new Promise(function (res) {
 			setTimeout(res, del);
 		});
 	},
+	async: function (
+		cb: /* Function */ any,
+		cat: /* Function */ any = function (err: any): void {
+			if (porridge.development != false) {
+				console.error(err);
+			}
+		}
+	) {
+		return new Promise(function (res) {
+			setTimeout(res, 100);
+			// @ts-ignore
+		})
+			.then(cb)
+			.catch(cat);
+	},
+	// async: function (cb: Function) {
+	//     setTimeout(cb, 1);
+	// },
 	rand: function (min: number, max: number) {
 		return Math.floor(Math.random() * (max - min + 1) + min);
 	},
@@ -135,10 +153,10 @@ const porridge: any = {
 		}
 	},
 	array: {
-		rand: function(arr: any) {
+		rand: function (arr: any) {
 			return arr[Math.floor(Math.random() * (arr.length - 2))];
 		},
-		idx: function(
+		idx: function (
 			arr: any,
 			key: any,
 			start: number = 0,
@@ -163,10 +181,10 @@ const porridge: any = {
 				return porridge.array.idx(arr, key, middle + 1, end);
 			}
 		},
-		pluck: function(arr: any, key: any) {
-			return arr.filter(function(itm: any) { return itm !== key });
+		pluck: function (arr: any, key: any) {
+			return arr.filter(function (itm: any) {
+				return itm !== key;
+			});
 		}
 	}
 };
-
-// porridge.on('load');

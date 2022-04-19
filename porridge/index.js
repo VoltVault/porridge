@@ -43,6 +43,21 @@ const porridge = {
             setTimeout(res, del);
         });
     },
+    async: function (cb, cat = /* Function */ function (err) {
+        if (porridge.development != false) {
+            console.error(err);
+        }
+    }) {
+        return new Promise(function (res) {
+            setTimeout(res, 100);
+            // @ts-ignore
+        })
+            .then(cb)
+            .catch(cat);
+    },
+    // async: function (cb: Function) {
+    //     setTimeout(cb, 1);
+    // },
     rand: function (min, max) {
         return Math.floor(Math.random() * (max - min + 1) + min);
     },
@@ -121,7 +136,9 @@ const porridge = {
             }
         },
         pluck: function (arr, key) {
-            return arr.filter(function (itm) { return itm !== key; });
+            return arr.filter(function (itm) {
+                return itm !== key;
+            });
         }
     }
 };
