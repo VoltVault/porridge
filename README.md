@@ -10,7 +10,7 @@
 <p align="center"><a href="#Porridge.js"><img src="https://github.com/VoltVault/porridge-docs/blob/main/public/logo512.png?raw=true" alt="The Porridge.js logo" height="145px"></img></a></p> 
 <h1 align="center">Porridge.js</h1> 
 <p align="center"> 
-🚗 Porridge.js is a new open source javascript 📖 library. Feel free to contribute, and include an emoji in the commit message 😄. 
+🚗 Porridge.js is a new open source javascript 📖 library. Feel free to contribute, <br /> and include an emoji in the commit message 😄. 
 </p> 
 <p align="center"> 
 <a href="https://github.com/VoltVault/porridge/network/members/"><img src="https://img.shields.io/github/forks/VoltVault/porridge" alt="Forks on this repo"></img></a> 
